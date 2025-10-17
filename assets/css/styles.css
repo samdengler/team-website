@@ -39,8 +39,9 @@ img {
 .hero {
   position: relative;
   color: #ffffff;
-  background: linear-gradient(120deg, rgba(15, 23, 42, 0.75), rgba(79, 70, 239, 0.65)),
-    url('https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background: radial-gradient(circle at 20% 20%, rgba(79, 70, 239, 0.4), transparent 55%),
+    radial-gradient(circle at 80% 10%, rgba(129, 140, 248, 0.35), transparent 60%),
+    linear-gradient(120deg, rgba(15, 23, 42, 0.88), rgba(79, 70, 239, 0.7));
   min-height: 70vh;
   display: flex;
   align-items: stretch;
